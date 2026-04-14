@@ -82,21 +82,37 @@ function App() {
     </div>
   );
 
-  const renderHome = () => (
-    <div className="home-container">
-      <h1>NPTEL Data Analytics with Python</h1>
-      <div className="section">
-        <h2>Assignments (Year-wise)</h2>
-        <div className="button-grid">
-          {years.map(y => (
-            <button key={y.year} onClick={() => { setSelectedYear(y); setView('year'); }}>
-              Year {y.year}
-            </button>
-          ))}
+  const renderHome = () => {
+    const allYearsQuestions = years.reduce((acc, y) => {
+      const yearQuestions = y.data.weeks?.reduce((wAcc, w) => wAcc.concat(w.questions || []), []) || [];
+      return acc.concat(yearQuestions);
+    }, []);
+
+    return (
+      <div className="home-container">
+        <h1>NPTEL Data Analytics with Python</h1>
+        <div className="section">
+          <h2>Assignments (Year-wise)</h2>
+          <div className="button-grid">
+            {years.map(y => (
+              <button key={y.year} onClick={() => { setSelectedYear(y); setView('year'); }}>
+                Year {y.year}
+              </button>
+            ))}
+          </div>
+          {allYearsQuestions.length > 0 && (
+            <div className="mock-card" style={{ marginTop: '20px', maxWidth: '400px', margin: '20px auto 0 auto' }}>
+              <h3>All Years (Mixed)</h3>
+              <p style={{ textAlign: 'center', marginBottom: '15px' }}>{allYearsQuestions.length} Questions</p>
+              <div className="mode-buttons">
+                <button className="practice-btn" onClick={() => openTimerConfig(allYearsQuestions, 'practice')}>Practice Mode</button>
+                <button className="exam-btn" onClick={() => openTimerConfig(allYearsQuestions, 'exam')}>Exam Mode</button>
+              </div>
+            </div>
+          )}
         </div>
-      </div>
-      
-      <div className="section">
+        
+        <div className="section">
         <h2>Mock Tests</h2>
         <div className="button-grid mock-grid">
           {mocks.map(m => (
@@ -111,7 +127,8 @@ function App() {
         </div>
       </div>
     </div>
-  );
+    );
+  };
 
   const renderYearView = () => {
     if (!selectedYear) return null;
