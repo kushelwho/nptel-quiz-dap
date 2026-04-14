@@ -108,11 +108,26 @@ function App() {
 
   const renderYearView = () => {
     if (!selectedYear) return null;
+
+    const allQuestions = selectedYear.data.weeks?.reduce((acc, w) => {
+      return acc.concat(w.questions || []);
+    }, []) || [];
+
     return (
       <div className="year-container">
         <button className="back-btn" onClick={() => setView('home')}>&larr; Back to Home</button>
         <h2>Assignments for {selectedYear.year}</h2>
         <div className="weeks-list">
+          {allQuestions.length > 0 && (
+            <div className="week-card mixed-card">
+              <h3>All Weeks (Mixed)</h3>
+              <p>{allQuestions.length} Questions</p>
+              <div className="mode-buttons">
+                <button className="practice-btn" onClick={() => openTimerConfig(allQuestions, 'practice')}>Practice Mode</button>
+                <button className="exam-btn" onClick={() => openTimerConfig(allQuestions, 'exam')}>Exam Mode</button>
+              </div>
+            </div>
+          )}
           {selectedYear.data.weeks?.map(w => (
             <div key={w.week} className="week-card">
               <h3>Week {w.week}</h3>
