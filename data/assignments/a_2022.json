@@ -1,0 +1,276 @@
+{
+  "course": "Data Analytics",
+  "weeks": [
+    {
+      "week": 1,
+      "questions": [
+        {
+          "q_no": 3,
+          "question": "State True or false: Nominal scale is the lowest level of measurement and ratio scale is the highest level of measurement.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 10,
+          "question": "State true or false: Arithmetic mean is not applicable for ordinal or nominal data.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "questions": [
+        {
+          "q_no": 5,
+          "question": "A standard normal distribution has:",
+          "options": {
+            "a": "Mean 1 and standard distribution 0",
+            "b": "Mean 0.5 and standard distribution 0.5",
+            "c": "Mean 0 and standard distribution 1",
+            "d": "Mean 1 and standard distribution 1"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 8,
+          "question": "State True or False: Binomial and normal Distributions are discrete probability distributions.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "For a binomial experiment with p = 0.5 and a sample size of 100. The expected value of this distribution is?",
+          "options": {
+            "a": "0.50",
+            "b": "0.30",
+            "c": "100",
+            "d": "50"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "questions": [
+        {
+          "q_no": 4,
+          "question": "State True or False: A population is a set of all items or individual of interest.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "questions": [
+        {
+          "q_no": 4,
+          "question": "In a two-tailed hypothesis test situation, the test statistic is determined to be t = -2.692. The sample size has been 45. The p-value for this test is:",
+          "options": {
+            "a": "-0.005",
+            "b": "+0.005",
+            "c": "-0.01",
+            "d": "+0.01"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "In a lower one-tail hypothesis test situation, the p-value is determined to be 0.2. If the sample size for this test is 51, the t statistic has a value of:",
+          "options": {
+            "a": "0.849",
+            "b": "-0.849",
+            "c": "1299",
+            "d": "-1299"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 6,
+          "question": "A machine is designed to fill toothpaste tubes with 5.8 ounces of toothpaste. The manufacturer does not want any underfilling or overfilling. The correct hypotheses to be tested are:",
+          "options": {
+            "a": "H0: Mu not equals to 5.8, Ha: Mu = 5.8",
+            "b": "H0: Mu = 5.8, Ha: Mu not equals to 5.8",
+            "c": "H0: Mu > 5.8, Ha: Mu =< 5.8",
+            "d": "H0: Mu >= 5.8, Ha: Mu < 5.8"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": "5b",
+          "question": "For one-tailed test, the test statistic z is determined to be zero. The p-value for this test is:",
+          "options": {
+            "a": "Zero",
+            "b": "-0.5",
+            "c": "+0.5",
+            "d": "1.0"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "questions": [
+        {
+          "q_no": 5,
+          "question": "If, sum of square between treatments (SSTR) = 6,750, H0: m1=m2=m3=m4, Sum of square of error (SSE) = 8,000, Total number of elements (nT) = 20. The mean square between treatments (MSTR) equals:",
+          "options": {
+            "a": "400",
+            "b": "500",
+            "c": "1687.5",
+            "d": "2250"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 6,
+          "question": "Refer to Q5. The mean square within treatments (MSE) equals:",
+          "options": {
+            "a": "400",
+            "b": "500",
+            "c": "1687.5",
+            "d": "2250"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 7,
+          "question": "Refer to Q5. The test statistic to test the null hypothesis is equals:",
+          "options": {
+            "a": "0.22",
+            "b": "0.84",
+            "c": "4.22",
+            "d": "4.5"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 8,
+          "question": "An ANOVA procedure is applied to data obtained from 6 samples where each sample contains 20 observations. The degrees of freedom for the critical value of F are:",
+          "options": {
+            "a": "6 numerator and 20 denominator degrees of freedom",
+            "b": "5 numerator and 20 denominator degrees of freedom",
+            "c": "5 numerator and 114 denominator degrees of freedom",
+            "d": "6 numerator and 114 denominator degrees of freedom"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 9,
+          "question": "The critical F value with 6 numerator and 60 denominator degrees of freedom at alpha = .05 is:",
+          "options": {
+            "a": "3.74",
+            "b": "2.25",
+            "c": "2.37",
+            "d": "1.96"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "The ANOVA procedure is a statistical approach for determining whether or not:",
+          "options": {
+            "a": "the means of two samples are equal",
+            "b": "the means of two or more samples are equal",
+            "c": "the means of more than two samples are equal",
+            "d": "the means of two or more populations are equal"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": "5b",
+          "question": "In an ANOVA problem if SST = 200 and SSTR = 80, then SSE is:",
+          "options": {
+            "a": "280",
+            "b": "120",
+            "c": "80",
+            "d": "220"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "State True or False: In regression analysis the error term is normally distributed.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 3,
+          "question": "State True or False: A completely randomized design (CRD) is useful when the experimental units are heterogeneous.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "After performing one way ANOVA on the salesman schedule problem, we will:",
+          "options": {
+            "a": "Accept the null hypothesis",
+            "b": "Reject the null hypothesis",
+            "c": "Can't state any conclusion",
+            "d": "None of these"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 6,
+          "question": "After performing one way RBD on the salesman schedule problem we will:",
+          "options": {
+            "a": "Accept the null hypothesis",
+            "b": "Reject the null hypothesis",
+            "c": "Can't state any conclusion",
+            "d": "None of these"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 7,
+          "question": "The value of MSE when the salesman problem is solved by ANOVA is:",
+          "options": {
+            "a": "1.955",
+            "b": "9.555",
+            "c": "6.855",
+            "d": "3.588"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 8,
+          "question": "The value of MSE when the salesman problem is solved by RBD is:",
+          "options": {
+            "a": "1.955",
+            "b": "9.555",
+            "c": "6.855",
+            "d": "3.588"
+          },
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}

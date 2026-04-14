@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which type of data measurement classifies data into distinct categories with no ranking or order implied?",
+      "options": {
+        "a": "Ordinal Data",
+        "b": "Interval Data",
+        "c": "Nominal Data",
+        "d": "Ratio Data"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 2,
+      "question": "In Jupyter Notebook, what does a cell in 'Command Mode (blue)' allow you to do?",
+      "options": {
+        "a": "Edit the cell's content",
+        "b": "Execute code within the cell",
+        "c": "Edit the notebook structure",
+        "d": "View output from executed code"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 3,
+      "question": "What is the key distinction between df.loc[] and df.iloc[] in Pandas?",
+      "options": {
+        "a": "loc selects by integer position, iloc selects by label",
+        "b": "loc selects by label, iloc selects by integer position",
+        "c": "loc is for rows, iloc is for columns",
+        "d": "loc is for single selections, iloc is for multiple selections"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 4,
+      "question": "Which measure of central tendency is the only one applicable to all data types, including nominal/categorical data?",
+      "options": {
+        "a": "Arithmetic Mean",
+        "b": "Median",
+        "c": "Mode",
+        "d": "Interquartile Range"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 5,
+      "question": "When calculating variance for a sample, why is the sum of squared deviations divided by n-1 instead of n?",
+      "options": {
+        "a": "To simplify the calculation",
+        "b": "To account for the sample's tendency to underestimate population variance",
+        "c": "To make the variance value smaller",
+        "d": "To ensure the standard deviation is a whole number"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 6,
+      "question": "Based on the Coefficient of Variation (CV), which portfolio exhibits lower relative risk?",
+      "options": {
+        "a": "Portfolio A",
+        "b": "Portfolio B",
+        "c": "Both portfolios have the same relative risk",
+        "d": "Relative risk cannot be determined"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 7,
+      "question": "What is the primary purpose of the Chi-Square (χ²) Test of Independence?",
+      "options": {
+        "a": "To compare means of numerical variables",
+        "b": "To determine if there is a significant association between two categorical variables",
+        "c": "To predict future trends",
+        "d": "To measure central tendency"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 8,
+      "question": "What is the crucial assumption regarding expected frequencies in Chi-Square Test?",
+      "options": {
+        "a": "They must be equal to 1",
+        "b": "They must be at least 5",
+        "c": "Greater than observed frequencies",
+        "d": "Less than 0"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 9,
+      "question": "For Chi-Square GoF test with mean and std estimated, what is df?",
+      "options": {
+        "a": "k - 1",
+        "b": "k - 2",
+        "c": "k - 3",
+        "d": "k - p"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 10,
+      "question": "What is the primary difference between supervised and unsupervised learning?",
+      "options": {
+        "a": "Supervised uses unlabeled data",
+        "b": "Unsupervised finds structure without labels, supervised uses labeled data",
+        "c": "Supervised is for numerical data",
+        "d": "Unsupervised is always more accurate"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 11,
+      "question": "What causes the standardization paradox in clustering?",
+      "options": {
+        "a": "Introduces noise",
+        "b": "Forces same mean",
+        "c": "Removes influence of measurement units that may define clusters",
+        "d": "Only works for nominal data"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 12,
+      "question": "If two objects have no common variables in clustering, what is a remedy?",
+      "options": {
+        "a": "Distance = 0",
+        "b": "Remove one object",
+        "c": "Distance = infinity",
+        "d": "Impute median"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 13,
+      "question": "How to prepare ordinal and ratio data for clustering?",
+      "options": {
+        "a": "Use directly",
+        "b": "Ordinal → ranks & standardize, ratio → log transform",
+        "c": "Convert both to dummy",
+        "d": "Ignore ordinal"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 14,
+      "question": "Objective function minimized in K-Means?",
+      "options": {
+        "a": "Inter-cluster similarity",
+        "b": "Sum of Squared Errors (SSE)",
+        "c": "Iterations",
+        "d": "MAD"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 15,
+      "question": "Advantage of Hierarchical over K-Means?",
+      "options": {
+        "a": "More efficient",
+        "b": "More accurate",
+        "c": "No need to specify k",
+        "d": "Less sensitive to outliers"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 16,
+      "question": "Single linkage distance between clusters?",
+      "options": {
+        "a": "Average distance",
+        "b": "Farthest distance",
+        "c": "Closest distance",
+        "d": "Centroid distance"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 17,
+      "question": "What is a Leaf Node in CART?",
+      "options": {
+        "a": "Root node",
+        "b": "Test node",
+        "c": "Terminal node with final output",
+        "d": "Splitting node"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 18,
+      "question": "What does Gini Index = 0 mean?",
+      "options": {
+        "a": "Impure",
+        "b": "Equal mix",
+        "c": "Perfectly pure",
+        "d": "Cannot split"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 19,
+      "question": "Information Gain is biased towards?",
+      "options": {
+        "a": "Few values",
+        "b": "Many distinct values",
+        "c": "Numerical only",
+        "d": "Categorical only"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 20,
+      "question": "Goal of Gini Index?",
+      "options": {
+        "a": "Maximize",
+        "b": "Minimize",
+        "c": "Keep constant",
+        "d": "Maximize entropy"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 21,
+      "question": "Purpose of Label Encoding?",
+      "options": {
+        "a": "Numeric to categorical",
+        "b": "Categorical to numeric",
+        "c": "Split dataset",
+        "d": "Visualize tree"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 22,
+      "question": "Purpose of k-1 rule in dummy variables?",
+      "options": {
+        "a": "Ensure linearity",
+        "b": "Avoid multicollinearity",
+        "c": "Simplify intercept",
+        "d": "Allow more categories"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 23,
+      "question": "R² increases but Adjusted R² decreases means?",
+      "options": {
+        "a": "Strong predictor",
+        "b": "Overfitting",
+        "c": "Noise variable",
+        "d": "Perfect fit"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 24,
+      "question": "Purpose of F-test in regression?",
+      "options": {
+        "a": "Individual significance",
+        "b": "Calculate R²",
+        "c": "Overall model significance",
+        "d": "Normality check"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 25,
+      "question": "When are OLS and MLE estimates identical?",
+      "options": {
+        "a": "Small sample",
+        "b": "Normal errors",
+        "c": "Categorical X",
+        "d": "Binary Y"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 26,
+      "question": "Logistic regression predicts?",
+      "options": {
+        "a": "Continuous",
+        "b": "Binary outcomes",
+        "c": "Ordinal",
+        "d": "Multi-class nominal"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 27,
+      "question": "Odds Ratio = 3 means?",
+      "options": {
+        "a": "3% increase",
+        "b": "Odds 3 times higher",
+        "c": "Less likely",
+        "d": "Coefficient is 3"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 28,
+      "question": "To improve specificity, what change threshold?",
+      "options": {
+        "a": "Decrease",
+        "b": "Increase",
+        "c": "Keep 0.5",
+        "d": "Random"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 29,
+      "question": "Fan-shaped residual plot indicates?",
+      "options": {
+        "a": "Perfect linearity",
+        "b": "Normal errors",
+        "c": "Heteroscedasticity; transform dependent variable",
+        "d": "Multicollinearity"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 30,
+      "question": "What are Collectively Exhaustive Events?",
+      "options": {
+        "a": "Cannot occur together",
+        "b": "Independent",
+        "c": "Cover entire sample space",
+        "d": "Complements"
+      },
+      "answer": "c"
+    }
+  ]
+}

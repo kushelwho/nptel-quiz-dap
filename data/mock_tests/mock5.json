@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What is the primary difference between Data Analysis and Data Analytics?",
+      "options": {
+        "a": "Data Analysis uses software, Data Analytics does not",
+        "b": "Data Analysis explains the past, Data Analytics predicts the future",
+        "c": "Data Analysis is quantitative, Data Analytics is qualitative",
+        "d": "Data Analysis is for small data, Data Analytics is for big data"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 2,
+      "question": "Which Pandas function is used to load a CSV file?",
+      "options": {
+        "a": "pd.load_csv()",
+        "b": "df.read_csv()",
+        "c": "pd.read_csv()",
+        "d": "df.load_data()"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 3,
+      "question": "Which Pandas accessor is used for integer-position based indexing?",
+      "options": {
+        "a": ".loc",
+        "b": ".iloc",
+        "c": ".ix",
+        "d": ".at"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 4,
+      "question": "Which measure of central tendency is best for skewed data?",
+      "options": {
+        "a": "Mean",
+        "b": "Median",
+        "c": "Mode",
+        "d": "Range"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 5,
+      "question": "What is the purpose of Coefficient of Variation?",
+      "options": {
+        "a": "Absolute spread",
+        "b": "Compare relative dispersion",
+        "c": "Identify outliers",
+        "d": "Measure skewness"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 6,
+      "question": "Null hypothesis in Chi-Square Test of Independence?",
+      "options": {
+        "a": "Variables dependent",
+        "b": "Variables independent",
+        "c": "Observed = expected",
+        "d": "Sample too small"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 7,
+      "question": "Degrees of freedom for Poisson GoF test (λ estimated)?",
+      "options": {
+        "a": "k - 1",
+        "b": "k - 2",
+        "c": "k - 3",
+        "d": "k"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 8,
+      "question": "Expected frequency assumption in Chi-Square?",
+      "options": {
+        "a": "Zero",
+        "b": "At least 5",
+        "c": "Greater than observed",
+        "d": "Integers"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 9,
+      "question": "Difference between supervised and unsupervised learning?",
+      "options": {
+        "a": "Supervised uses numerical",
+        "b": "Unsupervised finds structure without labels",
+        "c": "Supervised predicts",
+        "d": "Unsupervised faster"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 10,
+      "question": "Why can standardization destroy clustering?",
+      "options": {
+        "a": "Works only for nominal",
+        "b": "Distorts meaningful scale",
+        "c": "Uses MAD",
+        "d": "Incompatible with Euclidean"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 11,
+      "question": "Handling missing values in dissimilarity?",
+      "options": {
+        "a": "Assume zero",
+        "b": "Use only common variables",
+        "c": "Impute mean",
+        "d": "Exclude object"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 12,
+      "question": "Standardization of ordinal rank?",
+      "options": {
+        "a": "r_if / M_f",
+        "b": "(r_if - 1)/(M_f - 1)",
+        "c": "(r_if - M_f)/M_f",
+        "d": "r_if - M_f"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 13,
+      "question": "Function to compute pairwise distances?",
+      "options": {
+        "a": "distance.euclidean",
+        "b": "distance.minkowski",
+        "c": "distance_matrix",
+        "d": "distance.pdist"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 14,
+      "question": "K-Means objective?",
+      "options": {
+        "a": "Similarity",
+        "b": "SSE",
+        "c": "Iterations",
+        "d": "Centroid distance"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 15,
+      "question": "Hierarchical clustering method?",
+      "options": {
+        "a": "Divisive",
+        "b": "Agglomerative",
+        "c": "K-Means",
+        "d": "Density"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 16,
+      "question": "Single linkage distance?",
+      "options": {
+        "a": "Farthest",
+        "b": "Average",
+        "c": "Closest",
+        "d": "Centroid"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 17,
+      "question": "CART belongs to?",
+      "options": {
+        "a": "Unsupervised",
+        "b": "Reinforcement",
+        "c": "Supervised",
+        "d": "Semi-supervised"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 18,
+      "question": "Information Gain formula?",
+      "options": {
+        "a": "Info + Info_A",
+        "b": "Info - Info_A",
+        "c": "Info_A - Info",
+        "d": "Info * Info_A"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 19,
+      "question": "Why Gain Ratio?",
+      "options": {
+        "a": "Faster",
+        "b": "Less bias",
+        "c": "Binary only",
+        "d": "No entropy"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 20,
+      "question": "Purpose of train-test split?",
+      "options": {
+        "a": "Increase accuracy",
+        "b": "Prevent overfitting",
+        "c": "Simplify tree",
+        "d": "Reduce time"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 21,
+      "question": "Mutually exclusive events?",
+      "options": {
+        "a": "Occur together",
+        "b": "Dependent",
+        "c": "Cannot occur together",
+        "d": "Cover space"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 22,
+      "question": "If P(A|B) = P(A)?",
+      "options": {
+        "a": "Mutually exclusive",
+        "b": "Dependent",
+        "c": "Independent",
+        "d": "Complementary"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 23,
+      "question": "Discrete vs continuous?",
+      "options": {
+        "a": "Positive only",
+        "b": "Countable vs continuous range",
+        "c": "Mean difference",
+        "d": "Use difference"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 24,
+      "question": "Rare events distribution?",
+      "options": {
+        "a": "Binomial",
+        "b": "Hypergeometric",
+        "c": "Uniform",
+        "d": "Poisson"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 25,
+      "question": "Why P(X=x)=0 in continuous?",
+      "options": {
+        "a": "Mean zero",
+        "b": "Std=1",
+        "c": "Area concept",
+        "d": "Symmetry"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 26,
+      "question": "Function for P(X ≤ x)?",
+      "options": {
+        "a": "pmf",
+        "b": "sf",
+        "c": "ppf",
+        "d": "cdf"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 27,
+      "question": "CLT states?",
+      "options": {
+        "a": "Always skewed",
+        "b": "Approximately normal",
+        "c": "Mean zero",
+        "d": "Std=1"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 28,
+      "question": "Distribution of variance?",
+      "options": {
+        "a": "Normal",
+        "b": "t",
+        "c": "Chi-square",
+        "d": "F"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 29,
+      "question": "Why confidence interval?",
+      "options": {
+        "a": "Easy",
+        "b": "Shows precision",
+        "c": "Always narrow",
+        "d": "No sample"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 30,
+      "question": "Why larger χ² for lower bound?",
+      "options": {
+        "a": "Symmetry",
+        "b": "Non-symmetric inverse relation",
+        "c": "Wider interval",
+        "d": "Simplify"
+      },
+      "answer": "b"
+    }
+  ]
+}

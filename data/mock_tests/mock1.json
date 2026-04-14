@@ -1,0 +1,335 @@
+{
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which type of data analytics focuses on explaining 'what happened, how, and why' by examining past data?",
+      "options": {
+        "a": "Predictive Analytics",
+        "b": "Prescriptive Analytics",
+        "c": "Descriptive Analytics",
+        "d": "Diagnostic Analytics"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 2,
+      "question": "Which level of data measurement classifies data into distinct categories with no ranking or order implied?",
+      "options": {
+        "a": "Ordinal Data",
+        "b": "Interval Data",
+        "c": "Ratio Data",
+        "d": "Nominal Data"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 3,
+      "question": "What is the primary data structure in Pandas?",
+      "options": {
+        "a": "Series",
+        "b": "DataFrame",
+        "c": "Panel",
+        "d": "Array"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 4,
+      "question": "Index of first element in Python sequence?",
+      "options": {
+        "a": "1",
+        "b": "0",
+        "c": "-1",
+        "d": "None"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 5,
+      "question": "Pandas accessor using labels?",
+      "options": {
+        "a": ".iloc",
+        "b": ".loc",
+        "c": ".ix",
+        "d": ".at"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 6,
+      "question": "Right-skewed distribution relation?",
+      "options": {
+        "a": "Mean < Median < Mode",
+        "b": "Mean = Median = Mode",
+        "c": "Mean > Median > Mode",
+        "d": "Mean = Mode < Median"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 7,
+      "question": "Chi-square expected frequency condition?",
+      "options": {
+        "a": "All > 10",
+        "b": "All ≥ 5",
+        "c": "Sum equal",
+        "d": "Can be zero",
+        "e": "Integers"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 8,
+      "question": "Degrees of freedom for Poisson GoF when mean estimated?",
+      "options": {
+        "a": "k - 1",
+        "b": "k - 2",
+        "c": "k - 3",
+        "d": "k - p"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 9,
+      "question": "Cluster analysis belongs to:",
+      "options": {
+        "a": "Supervised",
+        "b": "Reinforcement",
+        "c": "Unsupervised",
+        "d": "Semi-supervised"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 10,
+      "question": "Why standardization in clustering?",
+      "options": {
+        "a": "Convert to categorical",
+        "b": "Mean 1 SD 0",
+        "c": "Prevent scale dominance",
+        "d": "Reduce dimensions"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 11,
+      "question": "City grid distance metric?",
+      "options": {
+        "a": "Euclidean",
+        "b": "Chebyshev",
+        "c": "Manhattan",
+        "d": "Minkowski"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 12,
+      "question": "Dummy variables needed?",
+      "options": {
+        "a": "k",
+        "b": "k+1",
+        "c": "k-1",
+        "d": "2k"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 13,
+      "question": "Why log-likelihood?",
+      "options": {
+        "a": "Linear equation",
+        "b": "Convert product to sum",
+        "c": "Ensure positive",
+        "d": "Continuous domain"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 14,
+      "question": "OLS = MLE when?",
+      "options": {
+        "a": "Perfect correlation",
+        "b": "Large sample",
+        "c": "Normal errors",
+        "d": "Binary output"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 15,
+      "question": "Binary outcome regression?",
+      "options": {
+        "a": "Simple linear",
+        "b": "Multiple linear",
+        "c": "Polynomial",
+        "d": "Logistic"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 16,
+      "question": "Interpret logistic coefficient?",
+      "options": {
+        "a": "p-value",
+        "b": "Raw coefficient",
+        "c": "Odds ratio",
+        "d": "Std error"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 17,
+      "question": "Difference LR vs Logistic?",
+      "options": {
+        "a": "Continuous vs Binary",
+        "b": "Binary vs Continuous",
+        "c": "Both continuous",
+        "d": "Both binary"
+      },
+      "answer": "a"
+    },
+    {
+      "q_no": 18,
+      "question": "False Negative means?",
+      "options": {
+        "a": "Correct positive",
+        "b": "Correct negative",
+        "c": "False positive",
+        "d": "False negative"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 19,
+      "question": "ROC diagonal line?",
+      "options": {
+        "a": "Perfect",
+        "b": "Random",
+        "c": "Always positive",
+        "d": "Always negative"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 20,
+      "question": "Low threshold effect?",
+      "options": {
+        "a": "High sens, high spec",
+        "b": "Low both",
+        "c": "High sens, low spec",
+        "d": "Low sens, high spec"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 21,
+      "question": "U-shaped residual plot?",
+      "options": {
+        "a": "High R²",
+        "b": "Linear ok",
+        "c": "Non-linear relation",
+        "d": "Normal errors"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 22,
+      "question": "Log transform purpose?",
+      "options": {
+        "a": "Increase R²",
+        "b": "Categorical",
+        "c": "Fix heteroscedasticity",
+        "d": "Simplify"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 23,
+      "question": "NOT probability method?",
+      "options": {
+        "a": "Classical",
+        "b": "Relative frequency",
+        "c": "Subjective",
+        "d": "Bayesian"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 24,
+      "question": "Independent events condition?",
+      "options": {
+        "a": "P(A∩B)=0",
+        "b": "P(A∪B)=sum",
+        "c": "P(A|B)=P(A)",
+        "d": "P(A)+P(B)=1"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 25,
+      "question": "Success in fixed trials?",
+      "options": {
+        "a": "Poisson",
+        "b": "Hypergeometric",
+        "c": "Binomial",
+        "d": "Uniform"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 26,
+      "question": "Z-score formula?",
+      "options": {
+        "a": "(μ - X)/σ",
+        "b": "(X + μ)/σ",
+        "c": "(X - μ)/σ",
+        "d": "σ/(X - μ)"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 27,
+      "question": "Function for P(X ≤ x)?",
+      "options": {
+        "a": "pmf",
+        "b": "sf",
+        "c": "ppf",
+        "d": "cdf"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 28,
+      "question": "CLT effect?",
+      "options": {
+        "a": "More skewed",
+        "b": "Normal",
+        "c": "Mean deviates",
+        "d": "SE increases"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 29,
+      "question": "CI for variance uses?",
+      "options": {
+        "a": "Z",
+        "b": "t",
+        "c": "Chi-square",
+        "d": "F"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 30,
+      "question": "Z(α/2) for 95%?",
+      "options": {
+        "a": "1.645",
+        "b": "1.96",
+        "c": "2.33",
+        "d": "2.58"
+      },
+      "answer": "b"
+    }
+  ]
+}

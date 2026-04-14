@@ -1,0 +1,627 @@
+{
+  "course": "Data Analytics",
+  "weeks": [
+    {
+      "week": 1,
+      "questions": [
+        {
+          "q_no": 6,
+          "question": "Which of the following is not a measure of dispersion?",
+          "options": {
+            "a": "skewness",
+            "b": "kurtosis",
+            "c": "range",
+            "d": "percentile"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 7,
+          "question": "State the following true or false: Bimodal Data sets contains more than two modes.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 8,
+          "question": "Bar Charts are used for:",
+          "options": {
+            "a": "Continuous data",
+            "b": "Categorical data",
+            "c": "Both a and b",
+            "d": "None of the above"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "Median is not applicable to:",
+          "options": {
+            "a": "Ordinal",
+            "b": "Interval",
+            "c": "Nominal",
+            "d": "None of the above"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "def m(data): Diff = max(data) - min(data); return(Diff). The above defined data function in Python programming, will calculate the:",
+          "options": {
+            "a": "Inter quartile range",
+            "b": "Mode",
+            "c": "Median",
+            "d": "Range"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": "1(2024-set2)",
+          "question": "Which of the following is never possible for variance?",
+          "options": {
+            "a": "Zero variance",
+            "b": "Larger than the standard deviation",
+            "c": "Negative variance",
+            "d": "Smaller than the standard deviation"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": "4(2024-set2)",
+          "question": "Frequency polygons are used for:",
+          "options": {
+            "a": "Continuous data",
+            "b": "Categorical data",
+            "c": "Both a and b",
+            "d": "None of the above"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": "5(2024-set2)",
+          "question": "\u03bc is an example of which of the following?",
+          "options": {
+            "a": "A population parameter",
+            "b": "sample statistic",
+            "c": "population variance",
+            "d": "mode"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": "6(2024-set2)",
+          "question": "Consider the following statements: Statement A: To 'flatten' the dataframe, you can use the reset_index(). Statement B: Use the nunique() to get counts of unique values on a Pandas Series.",
+          "options": {
+            "a": "Both statements are correct",
+            "b": "Both statements are false",
+            "c": "A is correct, B is false",
+            "d": "B is correct, A is false"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": "7(2024-set2)",
+          "question": "Which of the following statements in context of drawing an excellent graph is false:",
+          "options": {
+            "a": "The graph should not contain unnecessary adornments (sometimes referred to as chart junk)",
+            "b": "The scale on the vertical axis should begin at zero",
+            "c": "All axes should not be properly labelled",
+            "d": "The graph should contain a title"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": "9(2024-set2)",
+          "question": "Assume, you are given two lists: a = [1,2,3,4,5] and b = [6,7,8,9]. The task is to create a list which has all the elements of a and b in one dimension. Output: a = [1,2,3,4,5,6,7,8,9]. Which of the following option would you choose?",
+          "options": {
+            "a": "a.append(b)",
+            "b": "a.extend(b)",
+            "c": "Any of the above",
+            "d": "None of these"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": "10(2024-set2)",
+          "question": "State the following true or false: Bimodal Data sets contains more than two modes.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Which of the following is each individual outcome of an experiment called?",
+          "options": {
+            "a": "the sample space",
+            "b": "a sample point",
+            "c": "an experiment",
+            "d": "an individual"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "A process that generates a well-defined outcomes is called as?",
+          "options": {
+            "a": "an event",
+            "b": "an experiment",
+            "c": "a sample point",
+            "d": "a sample space"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "Two events having nonzero probabilities:",
+          "options": {
+            "a": "can be both mutually exclusive and independent",
+            "b": "cannot be both mutually exclusive and independent",
+            "c": "are always mutually exclusive",
+            "d": "are always independent"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "A normal distribution with a standard deviation of 1 and mean of 0 is defined as?",
+          "options": {
+            "a": "a probability density function",
+            "b": "an ordinary normal curve",
+            "c": "a standard normal distribution",
+            "d": "None of these alternatives is correct"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 5,
+          "question": "In a standard normal probability distribution, the area to the left portion of the mean is equal to?",
+          "options": {
+            "a": "-0.5",
+            "b": "0.5",
+            "c": "any value between 0 and 1",
+            "d": "1"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 6,
+          "question": "The weight of football players is normally distributed with a mean of 200 pounds and a standard deviation of 25 pounds. The probability of a player weighing more than 241.25 pounds is:",
+          "options": {
+            "a": "0.4505",
+            "b": "0.0495",
+            "c": "0.9505",
+            "d": "0.9010"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 7,
+          "question": "Refer to Q6. The probability of a player weighing less than 250 pounds is:",
+          "options": {
+            "a": "0.4772",
+            "b": "0.9772",
+            "c": "0.0528",
+            "d": "0.5"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "The Poisson probability distribution is which of the following type?",
+          "options": {
+            "a": "Continuous probability distribution",
+            "b": "Discrete probability distribution",
+            "c": "Uniform probability distribution",
+            "d": "Normal probability distribution"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "Assuming a binomial experiment with p = 0.5 and a sample size of 100. The expected value of this distribution is?",
+          "options": {
+            "a": "0.5",
+            "b": "0.3",
+            "c": "100",
+            "d": "50"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 10,
+          "question": "The hypergeometric probability distribution is identical to:",
+          "options": {
+            "a": "the Poisson probability distribution",
+            "b": "the binomial probability distribution",
+            "c": "the normal distribution",
+            "d": "None of these alternatives is correct"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Why one should not go for sampling?",
+          "options": {
+            "a": "It is less costly to administer than a census",
+            "b": "The person authorising the study is comfortable with the sample",
+            "c": "Because the research process is sometimes destructive",
+            "d": "None of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 4,
+          "question": "Calculate the probability of getting 12 heads in 20 attempts from a fair coin.",
+          "options": {
+            "a": "0.120",
+            "b": "0.240",
+            "c": "0.280",
+            "d": "0.301"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 7,
+          "question": "A car distributor in City Y experiences an average of 2.5 car sales daily. Find the probability that on a randomly selected day, they will sell 5 cars.",
+          "options": {
+            "a": "0.0668",
+            "b": "0.544",
+            "c": "0.082",
+            "d": "0.205"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 8,
+          "question": "Find the probability that on a randomly selected day, they will sell no cars (\u03bb = 2.5).",
+          "options": {
+            "a": "0.0668",
+            "b": "0.544",
+            "c": "0.082",
+            "d": "0.205"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 9,
+          "question": "Find the probability that on a randomly selected day, they will sell at most 2 cars (\u03bb = 2.5).",
+          "options": {
+            "a": "0.0668",
+            "b": "0.544",
+            "c": "0.082",
+            "d": "0.205"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "Find the probability that on a randomly selected day, they will sell exactly one car (\u03bb = 2.5).",
+          "options": {
+            "a": "0.0668",
+            "b": "0.544",
+            "c": "0.082",
+            "d": "0.205"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Null hypothesis, H\u2080: \u03bc\u2081 - \u03bc\u2082 = 0 is an example of:",
+          "options": {
+            "a": "Upper tail test",
+            "b": "Lower tail test",
+            "c": "Two tail test",
+            "d": "F Test"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 2,
+          "question": "If we have a sample size of 15 and the population standard deviation is known, we will use:",
+          "options": {
+            "a": "t-test for hypothesis testing",
+            "b": "z-test for hypothesis testing",
+            "c": "both t and z test",
+            "d": "F Test"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "In question 3 (Li-battery), the computed p-value is:",
+          "options": {
+            "a": "0.0456",
+            "b": "0.456",
+            "c": "0.0228",
+            "d": "0.228"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 6,
+          "question": "In question 3, at a 95% confidence interval, the estimate of the population mean life of the battery is:",
+          "options": {
+            "a": "325.5 to 379.5",
+            "b": "325.5 to 374.5",
+            "c": "320.5 to 379.5",
+            "d": "320.5 to 374.5"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "If a hypothesis test leads to the rejection of the null hypothesis:",
+          "options": {
+            "a": "a Type II error must have been committed",
+            "b": "a Type II error may have been committed",
+            "c": "a Type I error must have been committed",
+            "d": "a Type I error may have been committed"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "questions": [
+        {
+          "q_no": 2,
+          "question": "In a problem of ANOVA involving 3 treatments and 10 observations per treatment, SSE = 399.6. The MSE for this situation is:",
+          "options": {
+            "a": "130.2",
+            "b": "48.8",
+            "c": "14.8",
+            "d": "30.0"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 4,
+          "question": "An ANOVA procedure is applied to data obtained from 6 samples where each sample contains 10 observations. The degrees of freedom for the critical value of F are:",
+          "options": {
+            "a": "6 numerator and 20 denominator degrees of freedom",
+            "b": "5 numerator and 20 denominator degrees of freedom",
+            "c": "5 numerator and 54 denominator degrees of freedom",
+            "d": "6 numerator and 20 denominator degrees of freedom"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 5,
+          "question": "In an ANOVA problem if SST = 120 and SSTR = 80, then SSE is:",
+          "options": {
+            "a": "20",
+            "b": "40",
+            "c": "80",
+            "d": "120"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "The sampling distribution of two populations p\u0304\u2081 - p\u0304\u2082 is approximated by a:",
+          "options": {
+            "a": "t-distribution with n1 + n2 degrees of freedom",
+            "b": "normal distribution",
+            "c": "t-distribution with n1 + n2 - 1 degrees of freedom",
+            "d": "t-distribution with n1 + n2 + 2 degrees of freedom"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "The interval estimate of the mean value of y (dependent variable) for a given value of x is defined as?",
+          "options": {
+            "a": "Prediction interval estimate",
+            "b": "Confidence interval estimate",
+            "c": "Average regression",
+            "d": "X vs Y correlation interval"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "Which of the following is called Standard Error?",
+          "options": {
+            "a": "T-statistic squared",
+            "b": "Square root of SSE",
+            "c": "Square root of SST",
+            "d": "Square root of MSE"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "For a multiple regression model with 2 independent variables, R.sq = 0.904 and adjusted R.sq = 0.88, determine the number of observations (n):",
+          "options": {
+            "a": "6",
+            "b": "7",
+            "c": "9",
+            "d": "10"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 9,
+          "question": "If linear regression model has train error = 0, then test error:",
+          "options": {
+            "a": "Is also 0",
+            "b": "Is non-zero",
+            "c": "Is always equal to train error",
+            "d": "Cannot comment on Test error"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "Which of the following evaluation metrics is used to evaluate a model while modelling a continuous output variable?",
+          "options": {
+            "a": "AUC-ROC",
+            "b": "Accuracy",
+            "c": "Logloss",
+            "d": "Mean-Squared-Error"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "State true or false: There is no difference between E(y) = 0 + 1x and y = 0 + 1x + e, both are regression equations.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 2,
+          "question": "Which of the following statements is correct?",
+          "options": {
+            "a": "Sensitivity in ROC analysis is called True Positive Rate (tpr)",
+            "b": "Specificity in ROC analysis is not called True Negative Rate (tnr)",
+            "c": "Specificity in ROC analysis is called True Positive Rate (tpr)",
+            "d": "Sensitivity in ROC analysis is called True Negative Rate (tnr)"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 3,
+          "question": "In ROC analysis when the Threshold value is Higher:",
+          "options": {
+            "a": "Specificity decreases",
+            "b": "Sensitivity decreases",
+            "c": "Both a and b",
+            "d": "None of the above"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "Sensitivity in ROC analysis is defined as: (TP: True Positive, TN: True Negative, FP: False Positive, FN: False Negative)",
+          "options": {
+            "a": "FP/ (FP + TN)",
+            "b": "FN / (TP + FN)",
+            "c": "TN/ (TN + FP)",
+            "d": "TP / (TP + FN)"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "In ROC analysis, a classifier is called 'good' if it has:",
+          "options": {
+            "a": "Low TPR and Low FPR",
+            "b": "Low TPR and High FPR",
+            "c": "High TPR and Low FPR",
+            "d": "High TPR and High FPR"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "For the given confusion matrix (Predicted Positive: TP=8, FP=3; Predicted Negative: FN=2, TN=7), compute the recall:",
+          "options": {
+            "a": "0.73",
+            "b": "0.7",
+            "c": "0.78",
+            "d": "0.8"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 7,
+          "question": "State true or False: Precision is inversely proportional to recall.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "State True or False: Standardization of features is not required before training a Logistic regression model.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 10,
+          "question": "Which of the following is true regarding the logistic function for any value 'x'?",
+          "options": {
+            "a": "Logistic(x) = Logit(x)",
+            "b": "Logistic(x) = Logit_inv(x)",
+            "c": "Logit_inv(x) = Logit(x)",
+            "d": "None of these"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "questions": [
+        {
+          "q_no": 6,
+          "question": "Which of the following method is used for finding optimal clusters in K-Mean algorithm?",
+          "options": {
+            "a": "Elbow method",
+            "b": "Manhattan method",
+            "c": "Euclidian method",
+            "d": "None of these"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 7,
+          "question": "Movie Recommendation systems are an example of: 1.Classification 2.Clustering 3.Reinforcement Learning 4.Regression",
+          "options": {
+            "a": "2 Only",
+            "b": "1 and 2",
+            "c": "1 and 3",
+            "d": "1, 2, 3 and 4"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 10,
+          "question": "State true or false: Discriminant Analysis does not require the grouping variable to be known at the beginning.",
+          "options": {
+            "a": "True",
+            "b": "False"
+          },
+          "answer": "b"
+        }
+      ]
+    }
+  ]
+}

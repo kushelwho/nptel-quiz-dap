@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What is the primary purpose of Descriptive Analytics?",
+      "options": {
+        "a": "To predict future events",
+        "b": "To explain what happened",
+        "c": "To recommend actions",
+        "d": "To find root causes"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 2,
+      "question": "Which Pandas function is used to load a CSV file into a DataFrame?",
+      "options": {
+        "a": "pd.load_csv()",
+        "b": "pd.read_csv()",
+        "c": "df.import_csv()",
+        "d": "df.get_csv()"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 3,
+      "question": "Which Pandas accessor is used for label-based indexing?",
+      "options": {
+        "a": "df.iloc[]",
+        "b": "df.loc[]",
+        "c": "df.at[]",
+        "d": "df.ix[]"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 4,
+      "question": "Which measure of central tendency is most appropriate for skewed data?",
+      "options": {
+        "a": "Mean",
+        "b": "Median",
+        "c": "Mode",
+        "d": "Range"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 5,
+      "question": "What is the definition of Mutually Exclusive Events?",
+      "options": {
+        "a": "Events where the occurrence of one affects the probability of the other.",
+        "b": "Events that can occur at the same time.",
+        "c": "Events that cannot occur at the same time.",
+        "d": "Events that together cover the entire sample space."
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 6,
+      "question": "Which probability distribution is used to model the number of rare events in a fixed interval?",
+      "options": {
+        "a": "Binomial Distribution",
+        "b": "Uniform Distribution",
+        "c": "Poisson Distribution",
+        "d": "Exponential Distribution"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 7,
+      "question": "What is the standard error of the mean?",
+      "options": {
+        "a": "σ * √n",
+        "b": "σ / n",
+        "c": "σ / √n",
+        "d": "σ² / n"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 8,
+      "question": "What is the probability of making a Type I Error (α)?",
+      "options": {
+        "a": "Failing to reject H0 when false",
+        "b": "Rejecting H0 when true",
+        "c": "Correct rejection",
+        "d": "Correct acceptance"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 9,
+      "question": "If p-value = 0.03 and α = 0.05, what is the decision?",
+      "options": {
+        "a": "Fail to reject H0",
+        "b": "Reject H0",
+        "c": "Accept H0",
+        "d": "Need critical value"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 10,
+      "question": "Least Squares Method minimizes?",
+      "options": {
+        "a": "Absolute differences",
+        "b": "Squared vertical distances",
+        "c": "Horizontal distances",
+        "d": "Sum of errors"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 11,
+      "question": "Percentage within 2 standard deviations in normal distribution?",
+      "options": {
+        "a": "68%",
+        "b": "75%",
+        "c": "95%",
+        "d": "99.7%"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 12,
+      "question": "If A and B are independent?",
+      "options": {
+        "a": "P(A and B) = P(A) + P(B)",
+        "b": "P(A|B) = P(A)",
+        "c": "P(A or B) = P(A) + P(B) - P(A and B)",
+        "d": "They are mutually exclusive"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 13,
+      "question": "Condition for CLT?",
+      "options": {
+        "a": "σ known",
+        "b": "Large sample size",
+        "c": "Population normal",
+        "d": "Stratified sample"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 14,
+      "question": "Test when σ unknown and n < 30?",
+      "options": {
+        "a": "Z-test",
+        "b": "t-test",
+        "c": "Chi-square",
+        "d": "F-test"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 15,
+      "question": "Test for two means, equal variance?",
+      "options": {
+        "a": "Z-test",
+        "b": "Pooled t-test",
+        "c": "Unequal t-test",
+        "d": "Paired t-test"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 16,
+      "question": "Why ANOVA instead of multiple t-tests?",
+      "options": {
+        "a": "Simpler",
+        "b": "Robust",
+        "c": "Avoid Type I error inflation",
+        "d": "Detect interaction"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 17,
+      "question": "Purpose of train-test split?",
+      "options": {
+        "a": "Increase R²",
+        "b": "Prevent overfitting",
+        "c": "Simplify coefficients",
+        "d": "Pass through mean"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 18,
+      "question": "R² meaning?",
+      "options": {
+        "a": "Significance",
+        "b": "Variance explained",
+        "c": "-1 to 1",
+        "d": "Implies causation"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 19,
+      "question": "Which interval is wider?",
+      "options": {
+        "a": "Confidence interval",
+        "b": "Prediction interval",
+        "c": "Same",
+        "d": "Depends"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 20,
+      "question": "Regression coefficient meaning?",
+      "options": {
+        "a": "Total change",
+        "b": "Change holding others constant",
+        "c": "Correlation",
+        "d": "Variance explained"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 21,
+      "question": "Goal of MLE?",
+      "options": {
+        "a": "Minimize SSE",
+        "b": "Maximize likelihood",
+        "c": "Ensure linearity",
+        "d": "Calculate p-value"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 22,
+      "question": "False Negative means?",
+      "options": {
+        "a": "Correct positive",
+        "b": "Wrong positive",
+        "c": "Wrong negative when actually positive",
+        "d": "Correct negative"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 23,
+      "question": "Distribution for variance CI?",
+      "options": {
+        "a": "Z",
+        "b": "t",
+        "c": "Chi-square",
+        "d": "F"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 24,
+      "question": "Reduce both α and β?",
+      "options": {
+        "a": "Increase α",
+        "b": "Decrease α",
+        "c": "Increase n",
+        "d": "Decrease n"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 25,
+      "question": "Interaction effect in ANOVA?",
+      "options": {
+        "a": "Both significant",
+        "b": "Effect depends on other factor",
+        "c": "Highly correlated",
+        "d": "No main effects"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 26,
+      "question": "Most conservative post hoc test?",
+      "options": {
+        "a": "LSD",
+        "b": "Tukey HSD",
+        "c": "Bonferroni",
+        "d": "Scheffé"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 27,
+      "question": "Non-random residual pattern indicates?",
+      "options": {
+        "a": "Independence",
+        "b": "Zero mean",
+        "c": "Wrong model or heteroscedasticity",
+        "d": "Normal errors"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 28,
+      "question": "If F-test p-value > α?",
+      "options": {
+        "a": "Model significant",
+        "b": "Model not significant",
+        "c": "All predictors significant",
+        "d": "Check t-tests"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 29,
+      "question": "Odds Ratio = 3 means?",
+      "options": {
+        "a": "3% increase",
+        "b": "Odds 3 times higher",
+        "c": "3 units higher",
+        "d": "Log-odds increase 3"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 30,
+      "question": "Model worse than random on ROC?",
+      "options": {
+        "a": "Discard",
+        "b": "Reverse predictions",
+        "c": "Increase threshold",
+        "d": "Need more data"
+      },
+      "answer": "b"
+    }
+  ]
+}

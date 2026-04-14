@@ -1,0 +1,1385 @@
+{
+  "course": "Data Analytics",
+  "weeks": [
+    {
+      "week": 1,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Data analytics is best defined as:",
+          "options": {
+            "a": "Collection of large volumes of data",
+            "b": "Storage of structured and unstructured data",
+            "c": "Scientific process of transforming data into insights for decision-making",
+            "d": "Visualization of data using graphs"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 2,
+          "question": "Which of the following represents the correct order of data analytics types based on workflow?",
+          "options": {
+            "a": "Predictive \u2192 Descriptive \u2192 Prescriptive \u2192 Diagnostic",
+            "b": "Descriptive \u2192 Diagnostic \u2192 Predictive \u2192 Prescriptive",
+            "c": "Diagnostic \u2192 Descriptive \u2192 Prescriptive \u2192 Predictive",
+            "d": "Descriptive \u2192 Predictive \u2192 Diagnostic \u2192 Prescriptive"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "Under which level of measurement does the variable 'height of a person' fall?",
+          "options": {
+            "a": "Nominal",
+            "b": "Ordinal",
+            "c": "Interval",
+            "d": "Ratio"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 4,
+          "question": "In Python (Pandas), which command is used to select rows by integer position?",
+          "options": {
+            "a": "df.loc[]",
+            "b": "df.select()",
+            "c": "df.iloc[]",
+            "d": "df.index[]"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 5,
+          "question": "Which of the following is NOT a benefit of using Jupyter Notebook?",
+          "options": {
+            "a": "Easy documentation",
+            "b": "User-friendly interface",
+            "c": "Faster hardware execution",
+            "d": "Web-based code editing"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "The arithmetic mean is NOT appropriate for which type of data?",
+          "options": {
+            "a": "Interval",
+            "b": "Ratio",
+            "c": "Ordinal",
+            "d": "Nominal"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 7,
+          "question": "If a distribution is positively skewed, which relationship holds true?",
+          "options": {
+            "a": "Mean < Median < Mode",
+            "b": "Mode < Median < Mean",
+            "c": "Mean = Median = Mode",
+            "d": "Median < Mean < Mode"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "Which measure is used to compare relative dispersion between two datasets?",
+          "options": {
+            "a": "Variance",
+            "b": "Standard deviation",
+            "c": "Range",
+            "d": "Coefficient of variation"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 9,
+          "question": "A dataset has a mean of 50 and a standard deviation of 10. According to the Empirical Rule, approximately what percentage of observations lie between 30 and 70?",
+          "options": {
+            "a": "68%",
+            "b": "75%",
+            "c": "95%",
+            "d": "99.7%"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "Consider the following Python code: x = [10, 20, 30]; y = x; y.append(40); print(len(x)). What will be the output?",
+          "options": {
+            "a": "3",
+            "b": "4",
+            "c": "Error",
+            "d": "1"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Which distribution is most appropriate for rare events occurring over a fixed interval?",
+          "options": {
+            "a": "Binomial",
+            "b": "Normal",
+            "c": "Poisson",
+            "d": "Uniform"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 2,
+          "question": "A fair coin is tossed twice. What is the probability of getting exactly one head?",
+          "options": {
+            "a": "0.25",
+            "b": "0.50",
+            "c": "0.75",
+            "d": "1.00"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "Which distribution is commonly used to model the time between events in a Poisson process?",
+          "options": {
+            "a": "Binomial distribution",
+            "b": "Exponential distribution",
+            "c": "Uniform distribution",
+            "d": "Chi-square distribution"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "Which of the following is a discrete probability distribution?",
+          "options": {
+            "a": "Normal distribution",
+            "b": "Poisson distribution",
+            "c": "Exponential distribution",
+            "d": "Gamma distribution"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "If a binomial distribution has n = 10 and p = 0.4, what is the mean?",
+          "options": {
+            "a": "2",
+            "b": "4",
+            "c": "6",
+            "d": "10"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 6,
+          "question": "In a hypergeometric distribution, sampling is done:",
+          "options": {
+            "a": "Without replacement",
+            "b": "With replacement",
+            "c": "With constant probability",
+            "d": "From infinite population"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 7,
+          "question": "What will be the output of the following code: 'from scipy.stats import poisson; print(poisson.var(4))'?",
+          "options": {
+            "a": "2",
+            "b": "4",
+            "c": "8",
+            "d": "16"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "The mean and variance of a Poisson distribution are:",
+          "options": {
+            "a": "\u03bc and \u03bc\u00b2",
+            "b": "\u221a\u03bb and \u03bb",
+            "c": "\u03bb and \u221a\u03bb",
+            "d": "\u03bb and \u03bb"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 9,
+          "question": "Consider the following Python code: 'from scipy.stats import norm; print(norm.pdf(0))'. What will be the output?",
+          "options": {
+            "a": "0",
+            "b": "0.25",
+            "c": "0.399",
+            "d": "1.000"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "Consider the following Python code: 'import scipy.stats as stats; print(round(stats.norm.cdf(0),2))'. What will be the output?",
+          "options": {
+            "a": "0.00",
+            "b": "0.25",
+            "c": "0.50",
+            "d": "1.00"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Let a population have mean \u03bc = 50 and variance \u03c3\u00b2 = 100. For samples of size n = 25, the variance of the sampling distribution of the mean is:",
+          "options": {
+            "a": "100",
+            "b": "20",
+            "c": "4",
+            "d": "25"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 2,
+          "question": "Which statement about the Central Limit Theorem is FALSE?",
+          "options": {
+            "a": "It applies to the sample mean",
+            "b": "It requires normal population",
+            "c": "Approximation improves as n increases",
+            "d": "Sampling distribution tends to normality"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "If P = 0.6 and n = 150, what is the standard deviation of the sampling distribution of p\u0302?",
+          "options": {
+            "a": "0.04",
+            "b": "0.05",
+            "c": "0.06",
+            "d": "0.08"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 4,
+          "question": "A sample of size 36 has mean 80 and population standard deviation 12. The margin of error for a 95% CI is:",
+          "options": {
+            "a": "2",
+            "b": "3.92",
+            "c": "4",
+            "d": "6"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "Which of the following estimators is unbiased?",
+          "options": {
+            "a": "Sample standard deviation",
+            "b": "Sample variance",
+            "c": "Sample range",
+            "d": "Sample median"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 6,
+          "question": "The width of a confidence interval for the population mean will decrease when:",
+          "options": {
+            "a": "Confidence level increases",
+            "b": "Sample size increases",
+            "c": "Population variance increases",
+            "d": "Sample mean increases"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 7,
+          "question": "A 95% CI for a mean is (46.5, 51.5). Which statement is correct?",
+          "options": {
+            "a": "The population mean has a 95% probability of lying in the interval",
+            "b": "95% of sample observations lie in the interval",
+            "c": "95% of confidence intervals constructed in repeated sampling contain \u03bc",
+            "d": "The confidence level equals the sample mean"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 8,
+          "question": "When \u03c3\u00b2 is unknown and sample size is small, the appropriate distribution for CI estimation of \u03bc is:",
+          "options": {
+            "a": "Z distribution",
+            "b": "Chi-square distribution",
+            "c": "F distribution",
+            "d": "t distribution"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 9,
+          "question": "A variable is normally distributed with Mean (\u03bc) = 50 and Standard deviation (\u03c3) = 10. What is the Z-score for a value of 65?",
+          "options": {
+            "a": "1.0",
+            "b": "1.5",
+            "c": "2.0",
+            "d": "2.5"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "A sample of size 16 is drawn from a normal population. The chi-square statistic for variance estimation has degrees of freedom equal to:",
+          "options": {
+            "a": "15",
+            "b": "16",
+            "c": "14",
+            "d": "30"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Given: x\u0304 = 32, \u03bc\u2080 = 30, \u03c3 = 10, n = 30, \u03b1 = 0.05. Test: H\u2080: \u03bc \u2264 30 vs H\u2081: \u03bc > 30. The calculated z-value is closest to:",
+          "options": {
+            "a": "0.87",
+            "b": "1.09",
+            "c": "1.64",
+            "d": "2.05"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "For a one-tailed test at \u03b1 = 0.05, if p-value = 0.137, the correct decision is:",
+          "options": {
+            "a": "Reject H\u2080",
+            "b": "Accept H\u2080",
+            "c": "Do not reject H\u2080",
+            "d": "Insufficient data"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 3,
+          "question": "Rejecting a true null hypothesis is called:",
+          "options": {
+            "a": "Type II error",
+            "b": "Power of the test",
+            "c": "Type I error",
+            "d": "Sampling error"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 4,
+          "question": "If the sample size is fixed and \u03b1 is decreased, then \u03b2 will:",
+          "options": {
+            "a": "Decrease",
+            "b": "Increase",
+            "c": "Remain unchanged",
+            "d": "Become zero"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "A sample of 120 accidents shows 67 due to drunk driving. Test H\u2080: p = 0.5 vs H\u2081: p \u2260 0.5. The test statistic z is closest to:",
+          "options": {
+            "a": "0.98",
+            "b": "1.15",
+            "c": "1.28",
+            "d": "1.64"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "If in a z test, the p-value = 0.2006 and \u03b1 = 0.05, the decision is:",
+          "options": {
+            "a": "Reject H\u2080",
+            "b": "Not enough evidences",
+            "c": "Do not reject H\u2080",
+            "d": "Increase sample size"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "If \u03c3\u2081\u00b2 and \u03c3\u2082\u00b2 are known, the appropriate test statistic for \u03bc\u2081 \u2212 \u03bc\u2082 is:",
+          "options": {
+            "a": "t statistic",
+            "b": "\u03c7\u00b2 statistic",
+            "c": "z statistic",
+            "d": "F statistic"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 8,
+          "question": "Which hypothesis must always contain equality?",
+          "options": {
+            "a": "Alternative hypothesis",
+            "b": "Research hypothesis",
+            "c": "Null hypothesis",
+            "d": "Working hypothesis"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 9,
+          "question": "Which action reduces both Type I and Type II errors simultaneously?",
+          "options": {
+            "a": "Increasing \u03b1",
+            "b": "Decreasing \u03b1",
+            "c": "Increasing sample size",
+            "d": "Changing tail of test"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "In the past, 60% of the tourists who visited Delhi went to see Agra City. The management recently undertook an extensive promotional campaign. They are interested in determining whether the campaign increased the proportion of tourists visiting Agra City. The correct set of hypotheses is:",
+          "options": {
+            "a": "H\u2080: P > 0.60, Ha: P \u2264 0.60",
+            "b": "H\u2080: P < 0.45, Ha: P \u2265 0.45",
+            "c": "H\u2080: P \u2265 0.45, Ha: P < 0.45",
+            "d": "H\u2080: P \u2264 0.60, Ha: P > 0.60"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In testing H\u2080: \u03bc = 20 vs H\u2081: \u03bc > 20 with \u03b1 = 0.05, the rejection region for a Z test is:",
+          "options": {
+            "a": "Z < \u22121.96",
+            "b": "Z > 1.645",
+            "c": "|Z| > 1.96",
+            "d": "Z < \u22121.645"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "Given s\u2081\u00b2 = 16, n\u2081 = 10, s\u2082\u00b2 = 25, n\u2082 = 15. Degrees of freedom (approx.) is closest to:",
+          "options": {
+            "a": "18",
+            "b": "20",
+            "c": "22",
+            "d": "24"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "Given that the sample size (n) = 36, sample mean = 34.6, population standard deviation (\u03c3) = 12, H\u2080: \u03bc \u2264 30, Ha: \u03bc > 30. If the test is done at 95% confidence, the null hypothesis should:",
+          "options": {
+            "a": "not be rejected",
+            "b": "be rejected",
+            "c": "Not enough information is given to answer this question",
+            "d": "None of these alternatives is"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "Which test is appropriate when \u03c3 unknown, n = 45, normal population?",
+          "options": {
+            "a": "Z-test using \u03c3 (Population Standard Deviation)",
+            "b": "Z-test using s (Sample Standard Deviation)",
+            "c": "t-test",
+            "d": "F-test"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "ANOVA is preferred over multiple t-tests because it:",
+          "options": {
+            "a": "Reduces Type II error",
+            "b": "Eliminates assumptions",
+            "c": "Controls family-wise Type I error",
+            "d": "Works only for large samples"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "In context of ANOVA, if treatment means are far apart relative to within-group variability, F value will be:",
+          "options": {
+            "a": "Close to 0",
+            "b": "Close to 1",
+            "c": "Large",
+            "d": "Negative"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "If Tukey's HSD critical difference = 3.5, then two means of 18 and 14:",
+          "options": {
+            "a": "Not significantly different",
+            "b": "Significantly different",
+            "c": "Need LSD test",
+            "d": "Require larger sample"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "Given partial ANOVA table: Treatments SS=240, Error SS=120 (df=12), Total SS=360. Number of treatments = 4. Find the Mean Square Due to Treatments:",
+          "options": {
+            "a": "60",
+            "b": "80",
+            "c": "120",
+            "d": "240"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "For the given table in question 8, the total degrees of freedom is:",
+          "options": {
+            "a": "12",
+            "b": "16",
+            "c": "15",
+            "d": "360"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "For the data in question 8, the calculated F-statistic is:",
+          "options": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In a two-way ANOVA, if SSA = 180, SSB = 120, SSAB = 60, then SSE equals:",
+          "options": {
+            "a": "300.0",
+            "b": "420.0",
+            "c": "360.0",
+            "d": "Cannot be determined"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 2,
+          "question": "Which of the following designs is the only design capable of detecting interaction effects?",
+          "options": {
+            "a": "One-way ANOVA",
+            "b": "Randomized block design",
+            "c": "Factorial design",
+            "d": "Paired t-test"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 3,
+          "question": "In Randomized Block Design (RBD), each treatment appears:",
+          "options": {
+            "a": "Once in each block",
+            "b": "Randomly multiple times",
+            "c": "In only one block",
+            "d": "Only in selected blocks"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 4,
+          "question": "In a Regression: SSR = 200, Number of Independent variable = 5, SSE = 60, Total no of observation = 16. What is the F-statistic?",
+          "options": {
+            "a": "3.33",
+            "b": "4.25",
+            "c": "5.56",
+            "d": "6.67"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "Least squares method minimizes:",
+          "options": {
+            "a": "\u03a3|residuals|",
+            "b": "\u03a3(residuals)",
+            "c": "\u03a3(residuals\u00b2)",
+            "d": "\u03a3(y\u00b2)"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "A general linear model can include transformed predictors (z\u2081, z\u2082, ...). These represent:",
+          "options": {
+            "a": "Only interaction terms",
+            "b": "Only polynomial terms",
+            "c": "Any function of original predictors",
+            "d": "Dummy variables only"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "In Randomized Block Design (RBD) the purpose of blocking is to:",
+          "options": {
+            "a": "Increase within-group variation",
+            "b": "Remove nuisance variation",
+            "c": "Increase error variance",
+            "d": "Increase Type II error"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "In simple linear regression, the coefficient b (slope) represents:",
+          "options": {
+            "a": "Average value of Y",
+            "b": "Change in Y for a one-unit change in X",
+            "c": "Change in X for a one-unit change in Y",
+            "d": "Total variation in data"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "What is the purpose of this following command? tbl = pd.read_excel('C:/Users/Somi/Documents/regr.xlsx')",
+          "options": {
+            "a": "To read an Excel dataset into a pandas DataFrame",
+            "b": "To create a new Excel file",
+            "c": "To export regression results to Excel",
+            "d": "To convert a DataFrame into a NumPy array"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 10,
+          "question": "If the 95% confidence interval for \u03b2\u2081 does not include 0, then:",
+          "options": {
+            "a": "Model is incorrect",
+            "b": "Residuals are normal",
+            "c": "Slope is statistically significant",
+            "d": "Intercept is zero"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "When regression assumptions about the error term are violated, which of the following may occur?",
+          "options": {
+            "a": "Coefficient of determination becomes zero",
+            "b": "Hypothesis testing results become unreliable",
+            "c": "Regression line disappears",
+            "d": "Sample size automatically reduces"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "Residual analysis is primarily used to:",
+          "options": {
+            "a": "Estimate regression coefficients",
+            "b": "Test multicollinearity",
+            "c": "Validate regression model assumptions",
+            "d": "Maximize R\u00b2"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 3,
+          "question": "If the variance of residuals increases as the value of the independent variable increases, this indicates:",
+          "options": {
+            "a": "Heteroscedasticity",
+            "b": "Autocorrelation",
+            "c": "Multicollinearity",
+            "d": "Normality"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 4,
+          "question": "A residual plot showing a clear curved pattern suggests:",
+          "options": {
+            "a": "The model fits perfectly",
+            "b": "Constant variance exists",
+            "c": "A linear model may be inappropriate",
+            "d": "Errors are normally distributed"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 5,
+          "question": "Standardized residuals are primarily used to:",
+          "options": {
+            "a": "Detect outliers",
+            "b": "Increase R\u00b2",
+            "c": "Reduce bias in coefficients",
+            "d": "Transform dependent variables"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 6,
+          "question": "If residuals exhibit non-constant variance, the immediate consequence is:",
+          "options": {
+            "a": "Biased regression coefficients",
+            "b": "Invalid hypothesis tests and confidence intervals",
+            "c": "Incorrect sign of slope",
+            "d": "Perfect multicollinearity"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 7,
+          "question": "In a multiple linear regression model, multicollinearity primarily affects:",
+          "options": {
+            "a": "The unbiasedness of regression coefficients",
+            "b": "The magnitude of the dependent variable",
+            "c": "The stability and standard errors of coefficient estimates",
+            "d": "The calculation of residuals"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 8,
+          "question": "In multiple regression, the adjusted R\u00b2 is preferred over R\u00b2 because it:",
+          "options": {
+            "a": "Always increases when a new variable is added",
+            "b": "Penalizes the inclusion of irrelevant independent variables",
+            "c": "Eliminates multicollinearity",
+            "d": "Guarantees better prediction accuracy"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "In a multiple regression model with k independent variables, the overall F-test is used to test whether:",
+          "options": {
+            "a": "All regression coefficients are individually significant",
+            "b": "At least one independent variable is statistically significant",
+            "c": "The intercept is equal to zero",
+            "d": "Residuals are normally distributed"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "In a regression model with a dummy variable representing gender (Male = 1, Female = 0), the coefficient of the dummy variable represents:",
+          "options": {
+            "a": "The average value of the dependent variable for males",
+            "b": "The difference in mean dependent variable between males and females",
+            "c": "The slope of the continuous independent variable",
+            "d": "The variance of the dependent variable"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In regression modeling, the key difference between the dependent variable in linear regression and logistic regression is that:",
+          "options": {
+            "a": "Both require binary dependent variables",
+            "b": "Linear regression requires continuous dependent variable while logistic regression requires binary dependent variable",
+            "c": "Logistic regression requires continuous dependent variable",
+            "d": "Both require normally distributed dependent variables"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "Which measure is primarily used to assess model fit in logistic regression instead of the sum of squared errors?",
+          "options": {
+            "a": "Adjusted R\u00b2",
+            "b": "Mean absolute error",
+            "c": "-2 Log Likelihood",
+            "d": "Mean squared error"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 3,
+          "question": "Which statistical test is used to evaluate the overall significance of the logistic regression model?",
+          "options": {
+            "a": "t test",
+            "b": "F test",
+            "c": "G test",
+            "d": "Z test"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 4,
+          "question": "The coefficients in logistic regression are interpreted primarily using:",
+          "options": {
+            "a": "standardized beta coefficients",
+            "b": "correlation coefficients",
+            "c": "variance inflation factors",
+            "d": "odds ratios"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "In logistic regression, the odds ratio for an independent variable measures:",
+          "options": {
+            "a": "change in odds for one-unit increase in predictor",
+            "b": "change in probability for one-unit increase",
+            "c": "change in mean response",
+            "d": "goodness of fit of the model"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 6,
+          "question": "If the odds of an event occurring are 3, the corresponding probability is:",
+          "options": {
+            "a": "0.5",
+            "b": "0.6",
+            "c": "0.75",
+            "d": "0.8"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "In logistic regression model evaluation, the difference between the -2 log likelihood of the base model and the proposed model follows approximately which distribution?",
+          "options": {
+            "a": "chi-square distribution",
+            "b": "t distribution",
+            "c": "normal distribution",
+            "d": "F distribution"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 8,
+          "question": "The Wald test statistic used in logistic regression for testing significance of coefficients is:",
+          "options": {
+            "a": "\u03b2\u0302 / SE(\u03b2\u0302)",
+            "b": "\u03b2\u0302\u00b2 / SE(\u03b2\u0302)",
+            "c": "\u03b2\u0302 / SE(\u03b2\u0302)\u00b2",
+            "d": "\u03b2SE(\u03b2\u0302)"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 9,
+          "question": "In logistic regression, the relationship between predictors and probability is modeled using:",
+          "options": {
+            "a": "linear probability function",
+            "b": "exponential function",
+            "c": "logistic (sigmoid) function",
+            "d": "quadratic function"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 10,
+          "question": "If the estimated probability of an event is P = 0.40, the corresponding odds are:",
+          "options": {
+            "a": "0.4",
+            "b": "0.67",
+            "c": "1.5",
+            "d": "2.5"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In a binary classification confusion matrix, which component represents records where the model predicts class '1' but the actual class is '0'?",
+          "options": {
+            "a": "False Positive",
+            "b": "True Positive",
+            "c": "False Negative",
+            "d": "True Negative"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 2,
+          "question": "Which of the following correctly defines classification accuracy?",
+          "options": {
+            "a": "(TP + FP)/Total",
+            "b": "(TP + TN)/Total",
+            "c": "(FP + FN)/Total",
+            "d": "TP/(TP + FN)"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 3,
+          "question": "Which metric measures the proportion of actual positives correctly identified?",
+          "options": {
+            "a": "Precision",
+            "b": "Recall (Sensitivity)",
+            "c": "Specificity",
+            "d": "Accuracy"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "Reducing the cutoff value from 0.50 to 0.30 will generally:",
+          "options": {
+            "a": "Increase false negatives",
+            "b": "Decrease sensitivity",
+            "c": "Increase specificity",
+            "d": "Increase predicted positives"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 5,
+          "question": "In an ROC curve, the x-axis represents:",
+          "options": {
+            "a": "Sensitivity",
+            "b": "Precision",
+            "c": "False Positive Rate",
+            "d": "Accuracy"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "Which value of AUC (Area Under Curve) represents a perfect classifier?",
+          "options": {
+            "a": "0.0",
+            "b": "0.5",
+            "c": "0.75",
+            "d": "1.0"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 7,
+          "question": "Which of the following metrics is most useful when false negatives are very costly (e.g., disease detection)?",
+          "options": {
+            "a": "Accuracy",
+            "b": "Specificity",
+            "c": "Sensitivity",
+            "d": "Misclassification rate"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 8,
+          "question": "The first-order regression model with one predictor variable is represented as (standard nomenclature):",
+          "options": {
+            "a": "y = \u03b2\u2080 + \u03b2\u2081x\u2081 + \u03b5",
+            "b": "y = \u03b2\u2080 + \u03b2\u2081x\u2081 + \u03b2\u2082x\u2082 + \u03b5",
+            "c": "y = \u03b2\u2080x\u2081 + \u03b2\u2081",
+            "d": "y = \u03b2\u2081x\u2081\u00b2 + \u03b5"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 9,
+          "question": "In a second-order regression model with one predictor variable, which additional term is included (x is independent variable)?",
+          "options": {
+            "a": "x",
+            "b": "x\u00b2",
+            "c": "y\u00b2",
+            "d": "xy"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "In regression analysis, an interaction term between two variables x\u2081 and x\u2082 is represented as:",
+          "options": {
+            "a": "x\u2081 + x\u2082",
+            "b": "x\u2081 \u2212 x\u2082",
+            "c": "x\u2081x\u2082",
+            "d": "x\u2081/x\u2082"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "A researcher wants to test whether region (Categorical Variable) and investment type (Categorical variable) are related. Which test is most appropriate?",
+          "options": {
+            "a": "Chi-square test of independence",
+            "b": "t-test",
+            "c": "ANOVA",
+            "d": "Z-test"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 2,
+          "question": "Degrees of freedom in a contingency table with 4 rows and 3 columns:",
+          "options": {
+            "a": "6.0",
+            "b": "12.0",
+            "c": "5.0",
+            "d": "7.0"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 3,
+          "question": "A Chi-square test shows significance, but several expected frequencies are below 5. What is the most appropriate action?",
+          "options": {
+            "a": "Ignore the issue",
+            "b": "Combine categories",
+            "c": "Increase significance level",
+            "d": "Use regression"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "In a contingency table, if row and column variables are independent, then:",
+          "options": {
+            "a": "Observed = Expected",
+            "b": "Observed > Expected",
+            "c": "Observed < Expected",
+            "d": "Cannot be compared"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 5,
+          "question": "Which situation violates Chi-square assumptions?",
+          "options": {
+            "a": "Categorical data",
+            "b": "Independent observations",
+            "c": "Expected frequency < 5",
+            "d": "Large sample size"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 6,
+          "question": "Cluster analysis may give misleading results when:",
+          "options": {
+            "a": "Data is standardized",
+            "b": "Variables are correlated",
+            "c": "Variables are on different scales",
+            "d": "Sample size is large"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "Which method is most sensitive to outliers in clustering?",
+          "options": {
+            "a": "Hierarchical clustering",
+            "b": "K-means clustering",
+            "c": "Chi-square test",
+            "d": "Regression"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "A marketer uses clustering to segment customers but finds unstable clusters. The most likely issue is:",
+          "options": {
+            "a": "Too many observations",
+            "b": "Poor variable selection",
+            "c": "High significance level",
+            "d": "Low degrees of freedom"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 9,
+          "question": "Which situation best suits cluster analysis?",
+          "options": {
+            "a": "Predicting sales",
+            "b": "Grouping customers based on behavior",
+            "c": "Testing independence",
+            "d": "Estimating mean"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "Standardization transforms data so that:",
+          "options": {
+            "a": "Mean = 0 and deviation = 1",
+            "b": "Mean = 1",
+            "c": "Variance = 0",
+            "d": "Values increase"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In cluster analysis, dissimilarity between two objects is:",
+          "options": {
+            "a": "Always negative",
+            "b": "Always zero",
+            "c": "Non-negative and increases with difference",
+            "d": "Equal to correlation"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 2,
+          "question": "If all values of a variable are missing, what should be done?",
+          "options": {
+            "a": "Replace with mean",
+            "b": "Ignore missing values",
+            "c": "Remove variable",
+            "d": "Normalize"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 3,
+          "question": "Categorical variable dissimilarity is based on:",
+          "options": {
+            "a": "Ratio of mismatches",
+            "b": "Mean difference",
+            "c": "Variance",
+            "d": "Correlation"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 4,
+          "question": "If two objects match perfectly in a categorical variable, dissimilarity is:",
+          "options": {
+            "a": "1.0",
+            "b": "0.0",
+            "c": "-1",
+            "d": "Undefined"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 5,
+          "question": "Why are ordinal variables standardized to [0,1]?",
+          "options": {
+            "a": "Increase variance",
+            "b": "Reduce sample size",
+            "c": "Improve correlation",
+            "d": "Different variable scales need normalization"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 6,
+          "question": "If max = 3.08 and min = 1.34, normalization denominator is:",
+          "options": {
+            "a": "1.74",
+            "b": "2.08",
+            "c": "3.08",
+            "d": "1.0"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 7,
+          "question": "The objective function in K-means minimizes:",
+          "options": {
+            "a": "Between-cluster distance",
+            "b": "Sum of squared distances within clusters",
+            "c": "Correlation",
+            "d": "Variance between clusters"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "Two objects are described by 4 categorical variables. They match in 3 variables and differ in 1 variable. What is the dissimilarity?",
+          "options": {
+            "a": "0.25",
+            "b": "0.5",
+            "c": "0.75",
+            "d": "1.0"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 9,
+          "question": "Given log-transformed values: Object 1 = 2.65, Object 2 = 1.34, Maximum = 3.08, Minimum = 1.34. Find the normalized dissimilarity between objects 1 and 2:",
+          "options": {
+            "a": "0.5",
+            "b": "0.75",
+            "c": "1.0",
+            "d": "0.25"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "Consider two centroids: C1 = (1,1), C2 = (5,5). A point P = (2,3). Which cluster will P belong to (using Euclidean distance)?",
+          "options": {
+            "a": "Cluster 1",
+            "b": "Cluster 2",
+            "c": "Both equally",
+            "d": "Cannot determine"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "In decision tree algorithm, attribute selection method is used to:",
+          "options": {
+            "a": "Clean data",
+            "b": "Choose best splitting attribute",
+            "c": "Remove outliers",
+            "d": "Normalize features"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 2,
+          "question": "CART follows which approach while building trees?",
+          "options": {
+            "a": "Top-down greedy",
+            "b": "Bottom-up greedy",
+            "c": "Random search",
+            "d": "Backtracking"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 3,
+          "question": "The Gini index is mainly used for:",
+          "options": {
+            "a": "Clustering",
+            "b": "Classification",
+            "c": "Regression only",
+            "d": "Sampling"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 4,
+          "question": "Information gain is biased towards:",
+          "options": {
+            "a": "Attributes with many values",
+            "b": "Attributes with fewer values",
+            "c": "Continuous attributes only",
+            "d": "Binary attributes only"
+          },
+          "answer": "a"
+        },
+        {
+          "q_no": 5,
+          "question": "Gain ratio is used to:",
+          "options": {
+            "a": "Increase bias",
+            "b": "Normalize dataset",
+            "c": "Reduce dataset size",
+            "d": "Remove bias of information gain"
+          },
+          "answer": "d"
+        },
+        {
+          "q_no": 6,
+          "question": "Which of the following ensures binary splits in decision trees?",
+          "options": {
+            "a": "Information gain",
+            "b": "Gain ratio",
+            "c": "Gini index",
+            "d": "Entropy"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 7,
+          "question": "In hierarchical clustering, HAC stands for:",
+          "options": {
+            "a": "Hierarchical Analytical Clustering",
+            "b": "Hierarchical Agglomerative Clustering",
+            "c": "Hybrid Agglomerative Clustering",
+            "d": "High Accuracy Clustering"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 8,
+          "question": "The Euclidean distance formula is used to:",
+          "options": {
+            "a": "Measure similarity",
+            "b": "Normalize data",
+            "c": "Measure dissimilarity",
+            "d": "Reduce dimensions"
+          },
+          "answer": "c"
+        },
+        {
+          "q_no": 9,
+          "question": "LabelEncoder in Python is used for:",
+          "options": {
+            "a": "Scaling data",
+            "b": "Encoding categorical variables",
+            "c": "Feature selection",
+            "d": "Data splitting"
+          },
+          "answer": "b"
+        },
+        {
+          "q_no": 10,
+          "question": "The function fit_transform() in encoding:",
+          "options": {
+            "a": "Only fits model",
+            "b": "Only transforms data",
+            "c": "Fits and transforms data",
+            "d": "Deletes missing values"
+          },
+          "answer": "c"
+        }
+      ]
+    }
+  ]
+}

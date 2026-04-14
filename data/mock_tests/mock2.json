@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "According to the lecture, what is the primary focus of \"Data Analytics\"?",
+      "options": {
+        "a": "Explaining what happened",
+        "b": "Transforming data into insights for better future decisions",
+        "c": "Summarizing historical data",
+        "d": "Assigning numbers to characteristics"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 2,
+      "question": "What is the main purpose of Anaconda in the context of Python for data science?",
+      "options": {
+        "a": "To write complex machine learning algorithms",
+        "b": "To simplify Python installation and environment management by bundling key libraries",
+        "c": "To create interactive web applications",
+        "d": "To manage version control for Python projects"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 3,
+      "question": "In Pandas, which accessor is used for label-based indexing to select data?",
+      "options": {
+        "a": ".iloc",
+        "b": ".loc",
+        "c": ".select",
+        "d": ".get"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 4,
+      "question": "Which measure of central tendency is described as \"the most frequently occurring value in a dataset\"?",
+      "options": {
+        "a": "Arithmetic Mean",
+        "b": "Median",
+        "c": "Mode",
+        "d": "Range"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 5,
+      "question": "The Empirical Rule (68-95-99.7) applies specifically to which type of data distribution?",
+      "options": {
+        "a": "Any distribution shape",
+        "b": "Skewed distributions",
+        "c": "Bell-shaped (normal) distributions",
+        "d": "Uniform distributions"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 6,
+      "question": "Events that cannot occur at the same time are defined as:",
+      "options": {
+        "a": "Independent Events",
+        "b": "Complementary Events",
+        "c": "Collectively Exhaustive Events",
+        "d": "Mutually Exclusive Events"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 7,
+      "question": "What does a Z-score represent?",
+      "options": {
+        "a": "The probability of an event",
+        "b": "The number of standard deviations a data point is from the mean",
+        "c": "The mean of a sample",
+        "d": "The variance of a population"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 8,
+      "question": "A single number used to estimate a population parameter is called a:",
+      "options": {
+        "a": "Confidence Interval",
+        "b": "Margin of Error",
+        "c": "Point Estimate",
+        "d": "Estimator"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 9,
+      "question": "Which hypothesis always contains an equality component (`=`, `≤`, or `≥`) and represents the \"status quo\"?",
+      "options": {
+        "a": "Alternative Hypothesis (H1)",
+        "b": "Research Hypothesis",
+        "c": "Null Hypothesis (H0)",
+        "d": "Experimental Hypothesis"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 10,
+      "question": "What is the primary goal of the Least Squares Method in linear regression?",
+      "options": {
+        "a": "To maximize the correlation coefficient",
+        "b": "To minimize the sum of the squared vertical distances between actual and predicted points",
+        "c": "To find the median of the data points",
+        "d": "To ensure the line passes through the origin"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 11,
+      "question": "Which type of data analytics goes beyond prediction to recommend the best course of action to achieve a desired outcome?",
+      "options": {
+        "a": "Descriptive Analytics",
+        "b": "Diagnostic Analytics",
+        "c": "Predictive Analytics",
+        "d": "Prescriptive Analytics"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 12,
+      "question": "To load a CSV file named 'data.csv' into a Pandas DataFrame, which command is typically used?",
+      "options": {
+        "a": "pd.load_csv('data.csv')",
+        "b": "df.read_csv('data.csv')",
+        "c": "pandas.csv_read('data.csv')",
+        "d": "pd.read_csv('data.csv')"
+      },
+      "answer": "d"
+    },
+    {
+      "q_no": 13,
+      "question": "After performing a `groupby()` operation in Pandas that results in a hierarchical index, which method is used to convert the index back into standard columns?",
+      "options": {
+        "a": "flatten_index()",
+        "b": "reset_index()",
+        "c": "unstack()",
+        "d": "to_columns()"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 14,
+      "question": "For a dataset with a highly skewed distribution (e.g., income levels), which measure of central tendency is considered the most robust and reliable?",
+      "options": {
+        "a": "Arithmetic Mean",
+        "b": "Median",
+        "c": "Mode",
+        "d": "Standard Deviation"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 15,
+      "question": "What is a crucial assumption for the Chi-Square Test of Independence to be reliable regarding expected frequencies?",
+      "options": {
+        "a": "All observed frequencies must be at least 5",
+        "b": "All expected frequencies must be at least 5",
+        "c": "The sum of observed frequencies must equal the sum of expected frequencies",
+        "d": "The number of rows must equal the number of columns"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 16,
+      "question": "Why is standardization a crucial pre-processing step in cluster analysis for interval-scaled variables?",
+      "options": {
+        "a": "To convert all variables into categorical data",
+        "b": "To prevent variables measured on larger scales from unfairly dominating the clustering process",
+        "c": "To remove missing values from the dataset",
+        "d": "To ensure all variables have a normal distribution"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 17,
+      "question": "What is the objective function that the K-Means algorithm seeks to minimize?",
+      "options": {
+        "a": "Sum of Absolute Errors (SAE)",
+        "b": "Mean Squared Error (MSE)",
+        "c": "Sum of Squared Errors (SSE)",
+        "d": "Root Mean Squared Error (RMSE)"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 18,
+      "question": "In a Classification and Regression Tree (CART), what does a \"Leaf Node\" represent?",
+      "options": {
+        "a": "A test on an attribute that splits the data",
+        "b": "The starting point of the entire classification process",
+        "c": "A terminal node that holds the final outcome or class label",
+        "d": "A node that represents a recursive call to the algorithm"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 19,
+      "question": "The probability of event A happening given that event B has already occurred is represented by which formula?",
+      "options": {
+        "a": "P(A and B) = P(A) * P(B)",
+        "b": "P(A or B) = P(A) + P(B)",
+        "c": "P(A|B) = P(A and B) / P(B)",
+        "d": "P(B|A) = P(A and B) / P(A)"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 20,
+      "question": "Which probability distribution is used to analyze the sampling distribution of sample variances (s²)?",
+      "options": {
+        "a": "Normal distribution",
+        "b": "t-distribution",
+        "c": "Chi-square (χ²) distribution",
+        "d": "F-distribution"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 21,
+      "question": "For a fixed sample size, what is the relationship between Type I error (α) and Type II error (β)?",
+      "options": {
+        "a": "They are directly proportional",
+        "b": "They are inversely proportional",
+        "c": "They are independent of each other",
+        "d": "Reducing one always reduces the other"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 22,
+      "question": "What is the main statistical flaw of conducting multiple two-sample t-tests to compare the means of three or more groups?",
+      "options": {
+        "a": "It is computationally inefficient",
+        "b": "It assumes unequal variances among groups",
+        "c": "It inflates the total probability of making a Type I error",
+        "d": "It cannot detect differences between more than two groups"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 23,
+      "question": "For Chi-Square Goodness-of-Fit test, what is the correct formula for degrees of freedom?",
+      "options": {
+        "a": "df = k - 1",
+        "b": "df = k - 1 - p",
+        "c": "df = k - 2",
+        "d": "df = k - p"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 24,
+      "question": "What is the correct standardization formula for ordinal variables?",
+      "options": {
+        "a": "z_if = r_if / M_f",
+        "b": "z_if = (r_if - 1) / M_f",
+        "c": "z_if = (r_if - 1) / (M_f - 1)",
+        "d": "z_if = r_if / (M_f - 1)"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 25,
+      "question": "How does CART find the best split for a categorical attribute?",
+      "options": {
+        "a": "Selects highest frequency value",
+        "b": "Evaluates all possible binary groupings minimizing weighted Gini Index",
+        "c": "Creates multi-way split",
+        "d": "Converts to continuous"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 26,
+      "question": "If σ is unknown and n > 30, which test is valid?",
+      "options": {
+        "a": "Only t-test",
+        "b": "Z-test approximation",
+        "c": "F-test",
+        "d": "Neither"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 27,
+      "question": "What does a significant interaction effect imply in Two-Way ANOVA?",
+      "options": {
+        "a": "Both factors significant",
+        "b": "Effect of A constant",
+        "c": "Effect of one factor depends on the other",
+        "d": "Neither significant"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 28,
+      "question": "Interpretation of regression coefficient b1?",
+      "options": {
+        "a": "Change ignoring other variables",
+        "b": "Change holding other variable constant",
+        "c": "Total change both variables",
+        "d": "Correlation"
+      },
+      "answer": "b"
+    },
+    {
+      "q_no": 29,
+      "question": "Interpretation of logistic regression odds ratio?",
+      "options": {
+        "a": "Probability increase",
+        "b": "Odds increase 34.16%",
+        "c": "Odds multiply by ~1.41",
+        "d": "Odds decrease"
+      },
+      "answer": "c"
+    },
+    {
+      "q_no": 30,
+      "question": "Fix for heteroscedasticity (fan-shaped residual plot)?",
+      "options": {
+        "a": "Remove outliers",
+        "b": "Add interaction term",
+        "c": "Log transform dependent variable",
+        "d": "Change independent variable"
+      },
+      "answer": "c"
+    }
+  ]
+}
