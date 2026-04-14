@@ -13,11 +13,18 @@ function App() {
   const [quizMode, setQuizMode] = useState('practice'); // practice, exam
   const [quizDuration, setQuizDuration] = useState(30); // in minutes
   const [timerConfig, setTimerConfig] = useState(null);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem('darkMode') === 'true';
+  });
 
   useEffect(() => {
-    if (darkMode) document.documentElement.classList.add('dark');
-    else document.documentElement.classList.remove('dark');
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('darkMode', 'true');
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('darkMode', 'false');
+    }
   }, [darkMode]);
 
   const years = Object.keys(assignmentFiles).map(path => {
