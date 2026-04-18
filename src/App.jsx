@@ -94,90 +94,101 @@ function App() {
     </div>
   );
 
+  const [filterWeek, setFilterWeek] = useState('All Weeks');
+  const [filterYear, setFilterYear] = useState('All Years');
+
   const renderHome = () => {
-    const allYearsQuestions = years.reduce((acc, y) => {
-      const yearQuestions = y.data.weeks?.reduce((wAcc, w) => wAcc.concat(w.questions || []), []) || [];
-      return acc.concat(yearQuestions);
-    }, []);
+    const allAvailableYears = ['All Years', ...years.map(y => y.year)];
+    const weeks = ['All Weeks', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+    const startFilteredQuiz = (mode) => {
+      let filteredQuestions = [];
+      years.forEach(y => {
+        if (filterYear === 'All Years' || filterYear === y.year) {
+          y.data.weeks?.forEach(w => {
+            if (filterWeek === 'All Weeks' || parseInt(filterWeek) === parseInt(w.week)) {
+              filteredQuestions = filteredQuestions.concat(w.questions || []);
+            }
+          });
+        }
+      });
+
+      if (filteredQuestions.length === 0) {
+        alert("No questions found for this combination!");
+        return;
+      }
+      openTimerConfig(filteredQuestions, mode);
+    };
 
     return (
-      <div className="home-container">
-        <h1>NPTEL Data Analytics with Python</h1>
-        <div className="section">
-          <h2>Assignments (Year-wise)</h2>
-          <div className="button-grid">
-            {years.map(y => (
-              <button key={y.year} onClick={() => { setSelectedYear(y); setView('year'); }}>
-                Year {y.year}
+      <div className="home-simplified" style={{ marginTop: '30px' }}>
+        <h1 style={{textAlign: 'center', marginBottom: '2rem'}}>NPTEL Data Analytics with Python</h1>
+
+        <div className="filter-section">
+          <h3>Filter by Week</h3>
+          <div className="chips-container">
+            {weeks.map(w => (
+              <button 
+                key={w} 
+                className={`chip ${filterWeek === w ? 'active' : ''}`}
+                onClick={() => setFilterWeek(w)}
+              >
+                {w === 'All Weeks' ? 'All Weeks' : `Week ${w}`}
               </button>
             ))}
           </div>
-          {allYearsQuestions.length > 0 && (
-            <div className="mock-card" style={{ marginTop: '20px', maxWidth: '400px', margin: '20px auto 0 auto' }}>
-              <h3>All Years (Mixed)</h3>
-              <p style={{ textAlign: 'center', marginBottom: '15px' }}>{allYearsQuestions.length} Questions</p>
-              <div className="mode-buttons">
-                <button className="practice-btn" onClick={() => openTimerConfig(allYearsQuestions, 'practice')}>Practice Mode</button>
-                <button className="exam-btn" onClick={() => openTimerConfig(allYearsQuestions, 'exam')}>Exam Mode</button>
-              </div>
-            </div>
-          )}
         </div>
-        
-        <div className="section">
-        <h2>Mock Tests</h2>
-        <div className="button-grid mock-grid">
-          {mocks.map(m => (
-            <div key={m.name} className="mock-card">
-              <h3>{m.name.toUpperCase()}</h3>
-              <div className="mode-buttons">
-                <button className="practice-btn" onClick={() => openTimerConfig(m.data.questions, 'practice')}>Practice</button>
-                <button className="exam-btn" onClick={() => openTimerConfig(m.data.questions, 'exam')}>Exam</button>
-              </div>
-            </div>
-          ))}
+
+        <div className="filter-section">
+          <h3>Filter by Year</h3>
+          <div className="chips-container">
+            {allAvailableYears.map(y => (
+              <button 
+                key={y} 
+                className={`chip ${filterYear === y ? 'active' : ''}`}
+                onClick={() => setFilterYear(y)}
+              >
+                {y === 'All Years' ? 'All Years' : y}
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
-    );
-  };
 
-  const renderYearView = () => {
-    if (!selectedYear) return null;
-
-    const allQuestions = selectedYear.data.weeks?.reduce((acc, w) => {
-      return acc.concat(w.questions || []);
-    }, []) || [];
-
-    return (
-      <div className="year-container">
-        <button className="back-btn" onClick={() => setView('home')}>&larr; Back to Home</button>
-        <h2>Assignments for {selectedYear.year}</h2>
-        <div className="weeks-list">
-          {allQuestions.length > 0 && (
-            <div className="week-card mixed-card">
-              <h3>All Weeks (Mixed)</h3>
-              <p>{allQuestions.length} Questions</p>
-              <div className="mode-buttons">
-                <button className="practice-btn" onClick={() => openTimerConfig(allQuestions, 'practice')}>Practice Mode</button>
-                <button className="exam-btn" onClick={() => openTimerConfig(allQuestions, 'exam')}>Exam Mode</button>
-              </div>
+        <div className="filter-section" style={{ border: 'none', background: 'transparent', padding: '0' }}>
+          <h3 style={{marginTop: '2rem', color: 'var(--text-main)'}}>Quiz Mode</h3>
+          <div className="mode-cards-container">
+            <div className="mode-card" onClick={() => startFilteredQuiz('practice')}>
+              <div className="icon">💡</div>
+              <h4>Practice</h4>
+              <p>Instant feedback after each answer</p>
             </div>
-          )}
-          {selectedYear.data.weeks?.map(w => (
-            <div key={w.week} className="week-card">
-              <h3>Week {w.week}</h3>
-              <p>{w.questions ? w.questions.length : 0} Questions</p>
-              <div className="mode-buttons">
-                <button className="practice-btn" onClick={() => openTimerConfig(w.questions, 'practice')}>Practice Mode</button>
-                <button className="exam-btn" onClick={() => openTimerConfig(w.questions, 'exam')}>Exam Mode</button>
-              </div>
+            <div className="mode-card" onClick={() => startFilteredQuiz('exam')}>
+              <div className="icon">📝</div>
+              <h4>Test</h4>
+              <p>See results only at the end</p>
             </div>
-          ))}
+          </div>
         </div>
+
+        {mocks && mocks.length > 0 && (
+          <div className="filter-section" style={{ marginTop: '2rem' }}>
+            <h3>Mock Tests</h3>
+            <div className="chips-container" style={{ marginBottom: '1rem' }}>
+              {mocks.map(m => (
+                <div key={m.name} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#252525', padding: '0.5rem 1rem', borderRadius: '8px', border: '1px solid #444' }}>
+                  <span style={{ color: '#fff', fontWeight: 500 }}>{m.name.toUpperCase()}</span>
+                  <button className="chip" style={{ padding: '0.25rem 0.75rem', fontSize: '0.85rem' }} onClick={() => openTimerConfig(m.data.questions, 'practice')}>Practice</button>
+                  <button className="chip" style={{ padding: '0.25rem 0.75rem', fontSize: '0.85rem' }} onClick={() => openTimerConfig(m.data.questions, 'exam')}>Exam</button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     );
   };
+
+  const renderYearView = () => null; // Kept for safety if view state goes to 'year'
 
   return (
     <div className={`app-container ${darkMode ? 'dark-mode' : 'light-mode'}`}>
