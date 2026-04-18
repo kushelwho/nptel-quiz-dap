@@ -12,6 +12,7 @@ function App() {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [quizMode, setQuizMode] = useState('practice'); // practice, exam
   const [quizDuration, setQuizDuration] = useState(30); // in minutes
+  const [quizShuffle, setQuizShuffle] = useState(false); // whether to shuffle questions
   const [timerConfig, setTimerConfig] = useState(null);
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('darkMode') === 'true';
@@ -42,7 +43,7 @@ function App() {
   }).sort((a,b) => a.name.localeCompare(b.name));
 
   const openTimerConfig = (questions, mode) => {
-    setTimerConfig({ questions, mode, duration: 30 });
+    setTimerConfig({ questions, mode, duration: 30, shuffle: false });
     setView('timer-config');
   };
 
@@ -59,6 +60,7 @@ function App() {
     setQuizQuestions(timerConfig.questions || []);
     setQuizMode(timerConfig.mode);
     setQuizDuration(timerConfig.duration);
+    setQuizShuffle(timerConfig.shuffle);
     setView('quiz');
   };
 
@@ -72,6 +74,16 @@ function App() {
           <button onClick={() => handleTimerAdjust(-30)} disabled={timerConfig.duration <= 30}>- 30 min</button>
           <span className="timer-display">{timerConfig.duration} Mins</span>
           <button onClick={() => handleTimerAdjust(30)} disabled={timerConfig.duration >= 180}>+ 30 min</button>
+        </div>
+
+        <div className="shuffle-control" style={{ marginTop: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+          <input 
+            type="checkbox" 
+            id="shuffle-checkbox" 
+            checked={timerConfig.shuffle} 
+            onChange={(e) => setTimerConfig(prev => ({ ...prev, shuffle: e.target.checked }))} 
+          />
+          <label htmlFor="shuffle-checkbox" style={{ cursor: 'pointer' }}>Shuffle Questions</label>
         </div>
 
         <div className="timer-modal-actions">
@@ -181,6 +193,7 @@ function App() {
           questions={quizQuestions} 
           mode={quizMode} 
           duration={quizDuration}
+          shuffle={quizShuffle}
           onClose={() => setView('home')} 
         />
       )}
@@ -205,7 +218,7 @@ function formatTime(totalSeconds) {
   return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
 }
 
-function Quiz({ questions, mode, duration, onClose }) {
+function Quiz({ questions, mode, duration, shuffle, onClose }) {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({}); 
@@ -233,13 +246,13 @@ function Quiz({ questions, mode, duration, onClose }) {
   useEffect(() => {
     if (!questions || questions.length === 0) return;
     
-    let qs = shuffleArray(questions);
+    let qs = shuffle ? shuffleArray(questions) : [...questions];
     qs = qs.map(q => {
       const optionsArr = Object.entries(q.options || {}).map(([key, text]) => ({
         id: key,
         text: text
       }));
-      return { ...q, shuffledOptions: shuffleArray(optionsArr) };
+      return { ...q, shuffledOptions: shuffle ? shuffleArray(optionsArr) : optionsArr };
     });
     
     setShuffledQuestions(qs);
